@@ -94,7 +94,7 @@ const Hero = () => {
                   whileHover={{ y: -5 }}
                 >
                   <h3 className="font-semibold mb-2">Contact</h3>
-                  <p className="text-sm mb-1">{contactInfo.email}</p>
+                  <a href="mailto:hey@sachinsmc.me" className="text-sm mb-1">{contactInfo.email}</a>
                   <p className="text-sm">{contactInfo.phone}</p>
                 </motion.div>
               </div>
