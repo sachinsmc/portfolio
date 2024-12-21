@@ -1,5 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Analytics } from '@vercel/analytics/react';
+
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Experience from './components/Experience';
@@ -35,6 +37,7 @@ function App() {
         </div>
       </footer>
       <ThemeToggle isDark={isDark} toggle={setIsDark} />
+      <Analytics />
     </motion.div>
   );
 }
