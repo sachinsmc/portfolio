@@ -1,7 +1,5 @@
 export const skills = {
   cloud: [
-    "AWS",
-    "GCP",
     "AWS Lambda",
     "API Gateway",
     "SQS",
@@ -19,12 +17,15 @@ export const skills = {
   ],
   gcp: [
     "BigQuery",
-    "FCM",
+    "Firebase",
     "Analytics Core Reporting",
     "Search Console",
     "Content API for Shopping"
   ],
-  golang: [
+  frameworks: [
+    "NestJS",
+    "Express",
+    "Fastify",
     "Gin",
     "GORM",
     "Mux",
