@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Analytics } from '@vercel/analytics/react';
 
@@ -11,7 +10,6 @@ import Education from './components/Education';
 import Contact from './components/Contact';
 import { ThemeToggle } from './components/ThemeToggle';
 import { useDarkMode } from './hooks/useDarkMode';
-import { contactInfo } from './data/contact';
 
 function App() {
   const [isDark, setIsDark] = useDarkMode();
