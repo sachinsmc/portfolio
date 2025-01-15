@@ -17,7 +17,7 @@ export const projects = [
     description: "RAV Endpoint Protection platform is a multilayered next-generation antivirus solution that combines real-time monitoring of endpoints against the widest possible range of cyber threats.",
     technologies: ["Antivirus", "Cybersecurity", "Node.js",  "AWS", "PostgreSQL"],
     image: reasonlabsImage,
-    live: "https://reasonlabs.com/"
+    live: "https://reasonlabs.com/platform/products/endpoint-protection"
   },
   {
     title: "FamilyKeeper Parental Control",
