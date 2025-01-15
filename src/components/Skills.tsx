@@ -33,9 +33,9 @@ const Skills = () => {
         >
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-12">Skills & Technologies</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <SkillSection title="Cloud Services" skills={skills.cloud} icon={Cloud} />
+            <SkillSection title="AWS" skills={skills.cloud} icon={Cloud} />
             <SkillSection title="Google Cloud" skills={skills.gcp} icon={Globe} />
-            <SkillSection title="Golang" skills={skills.golang} icon={Code} />
+            <SkillSection title="Frameworks & Libraries" skills={skills.frameworks} icon={Code} />
             <SkillSection title="Databases" skills={skills.databases} icon={Database} />
             <SkillSection title="Backend" skills={skills.backend} icon={Server} />
             <SkillSection title="DevOps" skills={skills.devops} icon={Wrench} />

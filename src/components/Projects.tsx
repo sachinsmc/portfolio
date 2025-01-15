@@ -1,4 +1,3 @@
-import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 import { projects } from '../data/projects';
 
@@ -30,7 +29,7 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="flex gap-4">
-                  <a
+                  {project.github && (<a
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -38,7 +37,9 @@ const Projects = () => {
                   >
                     <Github className="h-5 w-5 mr-2" />
                     Code
-                  </a>
+                  </a>)}
+                  
+                  {project.live && (
                   <a
                     href={project.live}
                     target="_blank"
@@ -48,6 +49,7 @@ const Projects = () => {
                     <ExternalLink className="h-5 w-5 mr-2" />
                     Live Demo
                   </a>
+                  )}
                 </div>
               </div>
             </div>
