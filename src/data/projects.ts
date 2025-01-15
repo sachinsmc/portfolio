@@ -34,7 +34,7 @@ export const projects = [
     live: "https://play.google.com/store/apps/details?id=com.reasonsecurity.vpn"
   },
   {
-    title: "SaferWeb App",
+    title: "SaferWeb",
     description: "Safer Web easily filters all your internet content according to your needs! Control your device's internet connection and choose what to block: advertising, trackers, malicious sites, data and privacy leaks, adult and inappropriate content for children, and much more.",
     technologies: ["Internet Filtering", "Cybersecurity", "Privacy", "Node.js",  "AWS", "PostgreSQL"],
     image: saferwebImage,
