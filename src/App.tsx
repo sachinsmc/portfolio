@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Analytics } from '@vercel/analytics/react';
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Experience from './components/Experience';
@@ -36,6 +36,7 @@ function App() {
       </footer>
       <ThemeToggle isDark={isDark} toggle={setIsDark} />
       <Analytics />
+      <SpeedInsights />
     </motion.div>
   );
 }
